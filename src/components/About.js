@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/banner-image.png";
+import profile from "../assets/profile (3).gif";
 import { Link } from "react-scroll";
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,15 +28,8 @@ const about = () => {
            <a href="" className="CV button">
             Download CV
           </a>
-           <div className="social">
-            <a href="#">
-           <i className="bi bi-instagram"></i>
-           </a>
-           <a href="#">
-           <i className="fa fa-facebook-square"></i>
-           </a>
-           </div>
-        </div>
+          
+        </div> 
         <img src={profile} alt="profile" className="profile" />
       </Container>
     </>

@@ -5,8 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:   rgba(18, 29, 63, 0.886) !important;
+  /* background-color:   rgba(18, 29, 63, 0.886) !important;
+  body { */
+    /* background: linear-gradient(to bottom, #29323c, #485460); */
+    /* background:linear-gradient(to bottom, #485460, #29323c, #372a47, #45234c, #4d1e4c); */
+
+    background:linear-gradient(to bottom left,rgba(15,12,20,0.678),rgba(18,10,22,0.863)),url('../src/assets/background.jpg');
+   
+      
+      background-size: cover; /* Cover the entire viewport */
+      background-repeat: no-repeat; /* Do not repeat the background image */
+      background-attachment: fixed; /* Keep the background image fixed while scrolling */
+      /* Optionally, you can add additional styles such as background color or gradient */
+    
+
+
+
+
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

@@ -5,12 +5,12 @@ import Form from 'react-bootstrap/Form';
 const contact = () => {
   return (
     <>
-      <Container className="Contact">
+      <Container className="Contact" id="Contact">
         <div class="row">
           <div class="col">
-            <h2 className="contactTitle text-white">Get In Touch</h2>
+            <h1 className="contactTitle text-white">Get In Touch</h1>
             <div className="contact_container grid">
-              <h3 className="contactSubTitle text-white">Let's talk about everything!</h3>
+              <h2 className="contactSubTitle text-white">Let's make something Better Together!</h2>
               <p className="contactDetails text-white">Dont like Forms? Send me Email.</p>
             </div>
           </div>
@@ -33,7 +33,7 @@ const contact = () => {
               </Form.Group>
             </Form>
           </div>
-          <button type="button" class="btn btn-outline-success">Submit</button>
+          <button type="button" class="btn btn-success"  style={{ marginLeft: '50px' }}>Submit</button>
           </div>
         </div>
       </Container>
